@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "hypergraph-tools: MATLAB utilities for the tensor t-product and hypergraph signal processing"
+authors:
+  - family-names: Zhang
+    given-names: Haoxiang
+    affiliation: University of Kentucky
+version: 1.0.0
+date-released: 2026-09-29
+license: MIT
+repository-code: "https://github.com/HaoxiangZh/hypergraph-tools"
+keywords:
+  - tensor
+  - t-product
+  - hypergraph
+  - hypergraph signal processing
+  - MATLAB

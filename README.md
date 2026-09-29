@@ -78,6 +78,20 @@ The tests check algebraic identities (inverse, transpose, power, eigendecomposit
 - C. D. Martin, R. Shafer, and B. LaRue, "An order-p tensor factorization with applications in imaging," *SIAM Journal on Scientific Computing*, 2013.
 - K. Pena-Pena, D. L. Lau, and G. R. Arce, "t-HGSP: Hypergraph signal processing using t-product tensor decompositions," *IEEE Transactions on Signal and Information Processing over Networks*, 2023.
 
+## Citation
+
+If this code helps your research, please cite it — use **"Cite this repository"** on the GitHub page, or:
+
+```bibtex
+@software{zhang_hypergraph_tools,
+  author  = {Zhang, Haoxiang},
+  title   = {hypergraph-tools: MATLAB utilities for the tensor t-product and hypergraph signal processing},
+  year    = {2026},
+  version = {1.0.0},
+  url     = {https://github.com/HaoxiangZh/hypergraph-tools}
+}
+```
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
