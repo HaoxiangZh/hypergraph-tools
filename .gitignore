@@ -1,0 +1,7 @@
+*.asv
+*.m~
+*.mat
+*.mex*
+slprj/
+.DS_Store
+Thumbs.db
