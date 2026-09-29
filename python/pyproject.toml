@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hypergraph-tools"
+dynamic = ["version"]
+description = "The tensor t-product (any order p >= 3) and t-product hypergraph signal processing (t-HGSP) in NumPy"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Haoxiang Zhang" }]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22"]
+keywords = ["tensor", "t-product", "hypergraph", "signal processing", "t-SVD", "HGSP"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "scipy"]
+
+[project.urls]
+Homepage = "https://github.com/HaoxiangZh/hypergraph-tools"
+Issues = "https://github.com/HaoxiangZh/hypergraph-tools/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "hypergraph_tools.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

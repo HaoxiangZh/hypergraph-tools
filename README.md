@@ -1,10 +1,24 @@
 # hypergraph-tools
 
-MATLAB utilities for the **tensor t-product** and its use in hypergraph signal processing (t-HGSP).
+[![Python tests](https://github.com/HaoxiangZh/hypergraph-tools/actions/workflows/python-tests.yml/badge.svg)](https://github.com/HaoxiangZh/hypergraph-tools/actions/workflows/python-tests.yml)
+
+MATLAB and Python utilities for the **tensor t-product** and its use in hypergraph signal processing (t-HGSP).
 All operations work on tensors of any order p ≥ 3: dimensions 3..p are treated as the "tube" modes,
 and products are carried out slice-wise in the Fourier domain.
 
-## Contents
+- **MATLAB**: the folders below (`tproduct/`, `hgsp/`, `visualization/`).
+- **Python**: [`python/`](python/) — a NumPy port with the same functions, tested against the MATLAB outputs.
+
+```bash
+pip install "git+https://github.com/HaoxiangZh/hypergraph-tools#subdirectory=python"
+```
+
+```python
+import hypergraph_tools as ht
+C = ht.t_product(A, B)        # see python/README.md for the full API
+```
+
+## MATLAB contents
 
 ### `tproduct/` — t-product algebra
 

@@ -5,3 +5,13 @@
 slprj/
 .DS_Store
 Thumbs.db
+!python/tests/data/matlab_reference.mat
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
