@@ -87,7 +87,7 @@ If this code helps your research, please cite it — use **"Cite this repository
   author  = {Zhang, Haoxiang},
   title   = {hypergraph-tools: MATLAB utilities for the tensor t-product and hypergraph signal processing},
   year    = {2026},
-  version = {1.0.0},
+  version = {1.0.1},
   url     = {https://github.com/HaoxiangZh/hypergraph-tools}
 }
 ```
